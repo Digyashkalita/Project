@@ -1,0 +1,52 @@
+body{
+    background-color: grey;
+}
+
+
+#clock{
+
+    background-color: black;
+    color: cornsilk;
+    width: 500px;
+    height: 500px;
+   display:flex;
+   flex-wrap: wrap;
+   align-content: center;
+   border: 3px solid red;
+   padding: 50px;
+    margin: 10%  auto;
+   font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+#heading{
+    font-size: 75px;
+    margin-left: 20px;
+    width: 500px;
+}
+#timer{
+    font-size: 70px;
+    margin: 10px 50px 0 ;
+    width: 500px;
+}
+#date{
+    font-size: 50px;
+    margin: 20px   100px;
+    width: 500px;
+}
+
+button{
+    height: 50px;
+    width: 150px;
+    margin-top: 50px;
+    font-size:20px ;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: cyan;
+}
+#start{
+    margin-left: 100px;
+    
+}
+#stop{
+    margin-right: 100px;
+}
