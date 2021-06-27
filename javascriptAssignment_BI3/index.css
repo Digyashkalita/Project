@@ -1,0 +1,39 @@
+body{
+    background-color: darkgray;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#container{
+     height: 900px;
+    width: 1400px;
+    background-color: cornsilk;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content: center;
+     */
+}
+
+#heading{
+    background-color:steelblue;
+    height: 60px;
+    width: 1400px;
+    margin-top: 0px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+#leftcontainer{
+    height: 840px;
+    width: 700px;
+    background-color: tomato;
+}
+#rightcontainer{
+    height: 840px;
+    width: 700px;
+    background-color: teal;
+}
