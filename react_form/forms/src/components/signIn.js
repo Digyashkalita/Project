@@ -25,10 +25,10 @@ const SignIn = () =>{
         <>
       
         <form  className='form' onSubmit={handleSubmit} >
-            <label className="label" htmlFor='userName' >UserName:</label><br/>
+            <label className="label" htmlFor='userName' >UserName : </label>
             <input className="input" type="text" id="userName" name="userName" value={userName}  onChange={(e) =>{setUserName(e.target.value)}}/>
-            <label className="label" htmlFor="password">Password</label>
-            <input className="input" type="password" name="password" value={password} onChange={(e) =>{setPassword(e.target.value)}}/>    
+            <label className="label" htmlFor="password">Password : </label>
+            <input className="input" type="password" name="password" value={password} id="password" onChange={(e) =>{setPassword(e.target.value)}}/>    
             <input className='btn' type='submit' value='Sign-In' />            
         </form>
           {people.map((person, index)=>{

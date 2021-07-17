@@ -9,7 +9,7 @@ import {Route, Link, BrowserRouter as Router, Switch} from 'react-router-dom'
 
 const routing = (
   <Router>
-  <div id="link">
+  <div id="navbar">
       <ul>
     <li>
       <Link to="./">Home</Link>
