@@ -1,0 +1,23 @@
+{
+  "name": "monthlygroceryplanner",
+  "version": "1.0.0",
+  "description": "groceryplanner",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "author": "digyashkalita",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express.js": "^1.0.0",
+    "mongoose": "^5.13.5",
+    "nodemon": "^2.0.12",
+    "uuid": "^8.3.2"
+  
+
+  },
+    "type": "module",
+  "devDependencies": {}
+}

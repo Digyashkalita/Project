@@ -10,16 +10,34 @@
 <body>
     <div id="container">
         <h1 id="heading">ID Card Generator</h1>
-        <div id="leftcontainer">
-            <h1>Enter student details</h1>
-            <form>
-                
+       
+         
+            <form id="form">
+                  <h1>Enter student details</h1>
+                  <label for="name">Enter name:</label>
+                  <input type="text" name="name" class="input" id="name">
+                  <br>
+                  <label for="collegename">Enter College Name:</label>
+                 <input type="text" name="collegename" class="input" id="collegename">
+                 <br>
+                 <label for="location"> Enter Location:</label></td>
+                  <input type="text" name= "location" class="input" id="location">
+                  <br>
+                  <label for="picture" > Enter Student's Picture:</label>
+                  <input type="file"   accept="image/*" id="picture">
+                  <br>
+                  <input type="button" value="Generate ID" id="btn">
             </form>
+      
+      
+            <div id="card">
+                <img id="output" src="" >
+                <ul>
+                    <li></li>
+                </ul>
+            </div>
         </div>
-        <div id="rightcontainer">
-
-        </div>
-    </div>
+    
 
 <script src="index.js"></script>
 </body>

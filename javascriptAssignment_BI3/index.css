@@ -27,13 +27,31 @@ body{
     margin-bottom: 0px;
 }
 
-#leftcontainer{
-    height: 840px;
-    width: 700px;
-    background-color: tomato;
+#form{
+    height: 500px;
+    width: 600px;
+    
 }
-#rightcontainer{
-    height: 840px;
-    width: 700px;
-    background-color: teal;
+#card{
+    background-color: cornsilk;
+    height: 250px;
+    width: 400px;
+    margin: 0 auto;
+    border:2px solid black;
+    border-radius: 25px;
+    /* display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; */
+}
+#output{
+    height: 250px;
+    width: 150px;
+    float: left;
+    border-right: 1px solid grey;
+}
+.input{
+    height:25px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 25px;
 }
