@@ -1,13 +1,13 @@
 import Body from "./Components/Body";
 import Header from "./Components/Header";
-import Footer from './Components/Footer'
+import Footer from "./Components/Footer";
 function App() {
   return (
-   <>
-   <Header/>
-    <Body/>
-    <Footer/>
-   </>
+    <>
+      <Header />
+      <Body />
+      <Footer />
+    </>
   );
 }
 

@@ -2,50 +2,48 @@
   margin: 0;
   padding: 0;
 } */
-body{
+body {
   margin: 0px;
   font: normal 16px Arial, Helvetica, sans-serif;
   background-color: #616161;
 }
-.item{
+.item {
   height: 100px;
   width: 400px;
-  background-color:#424242;
+  background-color: #424242;
   border-radius: 5px;
   display: inline;
   text-align: center;
-  
 }
-.form{
-   height: 400px;
-   width: 400px;
-   color: #FFFFFF;
-  background-color:#424242;
+.form {
+  height: 400px;
+  width: 400px;
+  color: #ffffff;
+  background-color: #424242;
   border: 2px solid #212121;
   border-radius: 5px;
   margin: auto;
   margin-top: 10px;
   padding: 20px;
-
-
 }
-.form label{
+.form label {
   display: block;
-  padding: 3px ;
+  padding: 3px;
 }
-.form input[type='text'], .form #password{
+.form input[type="text"],
+.form #password {
   padding: 8px;
   width: 100%;
   margin-bottom: 5px;
 }
-.btn{
-  color: #FFFFFF;
-  background-color:#212121;
+.btn {
+  color: #ffffff;
+  background-color: #212121;
   width: 50%;
   padding: 10px 15px;
   border: none;
 }
-.btn:hover{
+.btn:hover {
   background-color: #757575;
 }
 /* #root{
@@ -57,40 +55,36 @@ body{
   align-items: center;
 } */
 
-a{
+a {
   text-decoration: none;
-  color: #FFFFFF;
-  
+  color: #ffffff;
 }
-a:hover{
-  color:#FFFFFF;
+a:hover {
+  color: #ffffff;
 }
 
-
-#navbar{
+#navbar {
   height: 100px;
   width: 100%;
-  background-color:#424242;
+  background-color: #424242;
   border: 2px solid #212121;
-
 }
-#navbar ul{
+#navbar ul {
   padding: 0;
   list-style: none;
   border-radius: 5px;
   margin: auto;
-  
 }
 
-#navbar li{
-  padding: 15px ;
+#navbar li {
+  padding: 15px;
   float: left;
   height: 60px;
   width: 150px;
   border: 1px solid #212121;
   margin: 5px 5px;
-  background-color:#212121;
+  background-color: #212121;
 
- box-sizing: border-box;
- text-align: center;
+  box-sizing: border-box;
+  text-align: center;
 }

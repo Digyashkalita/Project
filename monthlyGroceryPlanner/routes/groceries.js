@@ -1,10 +1,9 @@
-import express from 'express'
-import { getGrocery, addGrocery } from '../controller/groceries.js';
+import express from "express";
+import { getGrocery, addGrocery } from "../controller/groceries.js";
 
-const router  = express.Router();
+const router = express.Router();
 
 router.get("/", getGrocery);
-router.post("/", addGrocery)
+router.post("/", addGrocery);
 
-
-export default router 
+export default router;

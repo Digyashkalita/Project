@@ -1,20 +1,19 @@
-import React from 'react'
-import ReactDom from 'react-dom'
-import {books} from './books';
-import Book from './Book'
+import React from "react";
+import ReactDom from "react-dom";
+import { books } from "./books";
+import Book from "./Book";
 //css
-import "./index.css" ;
-
+import "./index.css";
 
 //Create booklists
-function BookList(){
-  return(
+function BookList() {
+  return (
     <section className="booklist">
-      {books.map((book) =>{
-        return <Book key={book.id} /*book ={book}*/ {...book}></Book>
+      {books.map((book) => {
+        return <Book key={book.id} /*book ={book}*/ {...book}></Book>;
       })}
     </section>
-  )
+  );
 }
 // setup vars
 // const author ="James Clear";
@@ -31,8 +30,6 @@ function BookList(){
 // title: "Ikigai: The Japanese secret to a long and happy life",
 // author: "Héctor García, Francesc Miralles "
 // }
-
-
 
 //Stateless functional component
 //always return JSX
@@ -65,6 +62,4 @@ function BookList(){
 //             );
 // }
 
-
-
-ReactDom.render(<BookList/>, document.getElementById("root"));  
+ReactDom.render(<BookList />, document.getElementById("root"));

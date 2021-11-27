@@ -1,57 +1,56 @@
-body{
-    background-color: darkgray;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+body {
+  background-color: darkgray;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
-#container{
-     height: 900px;
-    width: 1400px;
-    background-color: cornsilk;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    /* justify-content: center;
+#container {
+  height: 900px;
+  width: 1400px;
+  background-color: cornsilk;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* justify-content: center;
      */
 }
 
-#heading{
-    background-color:steelblue;
-    height: 60px;
-    width: 1400px;
-    margin-top: 0px;
-    text-align: center;
-    margin-bottom: 0px;
+#heading {
+  background-color: steelblue;
+  height: 60px;
+  width: 1400px;
+  margin-top: 0px;
+  text-align: center;
+  margin-bottom: 0px;
 }
 
-#form{
-    height: 500px;
-    width: 600px;
-    
+#form {
+  height: 500px;
+  width: 600px;
 }
-#card{
-    background-color: cornsilk;
-    height: 250px;
-    width: 400px;
-    margin: 0 auto;
-    border:2px solid black;
-    border-radius: 25px;
-    /* display: flex;
+#card {
+  background-color: cornsilk;
+  height: 250px;
+  width: 400px;
+  margin: 0 auto;
+  border: 2px solid black;
+  border-radius: 25px;
+  /* display: flex;
     flex-direction: column;
     flex-wrap: wrap; */
 }
-#output{
-    height: 250px;
-    width: 150px;
-    float: left;
-    border-right: 1px solid grey;
+#output {
+  height: 250px;
+  width: 150px;
+  float: left;
+  border-right: 1px solid grey;
 }
-.input{
-    height:25px;
-    width: 200px;
-    border: 2px solid black;
-    border-radius: 25px;
+.input {
+  height: 25px;
+  width: 200px;
+  border: 2px solid black;
+  border-radius: 25px;
 }

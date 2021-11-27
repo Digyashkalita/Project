@@ -1,5 +1,5 @@
 {
-    "git.ignoreLimitWarning": true,
-    "editor.formatOnSave": true,
-    "editor.formatOnPaste": true
+  "git.ignoreLimitWarning": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true
 }

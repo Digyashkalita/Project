@@ -1,4 +1,4 @@
-const os = require("os")
+const os = require("os");
 
 //platform
 console.log(os.platform());
@@ -15,7 +15,5 @@ console.log(os.totalmem());
 //Home Dir
 console.log(os.homedir());
 
-//Utime 
-console.log(os.uptime())
-
-
+//Utime
+console.log(os.uptime());

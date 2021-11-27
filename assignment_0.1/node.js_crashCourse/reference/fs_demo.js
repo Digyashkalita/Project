@@ -1,8 +1,7 @@
-const fs = require('fs')
-const path = require('path');
+const fs = require("fs");
+const path = require("path");
 
-
-//create folder 
+//create folder
 /*fs.mkdir(path.join(__dirname, '/test'), {}, err =>{
     if(err) throw err;
     console.log('folder created...')
@@ -11,7 +10,7 @@ folder created...
 */
 
 //create and write to file hello.txt
- /*
+/*
 fs.writeFile(path.join(__dirname, '/test', 'hello.txt'),
 'Hello World!',
 err =>{//err is a callback function
@@ -36,19 +35,12 @@ err =>{//err is a callback function
 //     }
 //    );
 
-
 //Rename file
-   fs.rename(path.join(__dirname, '/test', 'hello.txt'),path.join(__dirname, '/test', 'helloWorld.txt'),(err) =>{
+fs.rename(
+  path.join(__dirname, "/test", "hello.txt"),
+  path.join(__dirname, "/test", "helloWorld.txt"),
+  (err) => {
     if (err) throw err;
-    console.log('File renamed...');
-    });
-
-
-
-
-
-
-
-
-
-
+    console.log("File renamed...");
+  }
+);

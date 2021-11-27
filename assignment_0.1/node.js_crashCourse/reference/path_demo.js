@@ -1,4 +1,4 @@
-const path = require('path')
+const path = require("path");
 
 //base file name
 console.log(path.basename(__filename));
@@ -11,7 +11,7 @@ console.log(path.extname(__filename));
 /*.js */
 
 //create path object
-console.log(path.parse(__filename))
+console.log(path.parse(__filename));
 /*{
   root: 'D:\\',
   dir: 'D:\\coding\\assignment_0.1\\node.js_crashCourse\\reference',
@@ -21,5 +21,5 @@ console.log(path.parse(__filename))
 } */
 
 //concatenate paths
-console.log(path.join(__dirname, 'test', 'hello.html'))
+console.log(path.join(__dirname, "test", "hello.html"));
 /* D:\coding\assignment_0.1\node.js_crashCourse\reference\test\hello.html */

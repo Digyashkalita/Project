@@ -15,9 +15,7 @@
     "mongoose": "^5.13.5",
     "nodemon": "^2.0.12",
     "uuid": "^8.3.2"
-  
-
   },
-    "type": "module",
+  "type": "module",
   "devDependencies": {}
 }
